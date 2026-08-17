@@ -1,0 +1,6 @@
+gradio
+kagglehub
+pandas
+numpy
+scikit-learn
+reportlab
