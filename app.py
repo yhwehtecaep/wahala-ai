@@ -1,3 +1,6 @@
+import os
+os.environ["KAGGLE_USERNAME"] = os.environ.get("KAGGLE_USERNAME", "")
+os.environ["KAGGLE_KEY"]      = os.environ.get("KAGGLE_KEY", "")
 import os, kagglehub, gradio as gr, pandas as pd, numpy as np
 from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestClassifier
